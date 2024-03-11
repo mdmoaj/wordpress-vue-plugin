@@ -1,0 +1,5 @@
+{
+    "require": {
+        "wmde/php-vuejs-templating": "^2.0"
+    }
+}

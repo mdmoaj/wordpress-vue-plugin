@@ -1,0 +1,82 @@
+@media  (max-width: 1200px){
+    .new_users, .leads_box {
+        padding: 12px;
+    }
+}
+@media (min-width:768px) and (max-width: 992px){
+    .leads_table td p {
+        font-size: 14px;
+    }
+    .leads_short.short_name {
+        width: 40px;
+        height: 40px;
+    }
+
+    .leads_box.active {
+        width: 400px;
+    }
+    .leads_box {
+        width: 100%;
+    }
+    .leads_box_hidden_content {
+        width: calc(100% - 394px);
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+.leads_table.leads_table_active td:nth-child(2),
+.leads_table.leads_table_active td:nth-child(3),
+.leads_table.leads_table_active td:nth-child(4),
+.leads_table.leads_table_active td:nth-child(5),
+.leads_table.leads_table_active th:nth-child(2),
+.leads_table.leads_table_active th:nth-child(3),
+.leads_table.leads_table_active th:nth-child(4),
+.leads_table.leads_table_active th:nth-child(5){
+    display: none;
+}
+
+.fa_bars_show{
+    display: none;
+}
+
+.fa_bars_close{
+    display: block;
+}
+
+.leads_table.leads_table_active {
+    min-width: 0px;
+}
+.leads_box.side_show_active{
+width: 100%;
+margin-left: -103%;
+}
+.leads_box_hidden {
+    overflow-x: hidden;
+}
+.leads_box.side_show_active.new_active{
+    margin-left: 0%;
+    }
+
+.leads_box_hidden_content {
+    width: 100%;
+}
+}
+
+
+
+@media only screen and (max-width: 425px){
+
+.view_button_box button {
+    padding: 8px 12px;
+}
+.leads_table td p {
+    font-size: 15px;
+}
+
+
+#wpbody-content{
+    padding-bottom: 16px !important;
+}
+
+}
